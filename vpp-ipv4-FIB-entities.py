@@ -31,7 +31,7 @@ if len(sys.argv) == 3:
 
     # write file
     with open('vpp-ipv4-fib-entities.sh', 'w') as f:
-        f.write('#!/bin/sh \n')
+        f.write('#!/bin/sh\n')
         f.write('\n')
         for index in entities_ipv4:
             f.write(index)
