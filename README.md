@@ -6,7 +6,6 @@ vpp-FIB-sources-entities
 ```
 IPv4: 198.18.0.0/15
 https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry.xhtml
-
 ```
 
 ```
@@ -18,7 +17,6 @@ https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-re
 
 ```
 python vpp-FIB-entities.py xxx yyy
-
 ```
 make files
 ```
