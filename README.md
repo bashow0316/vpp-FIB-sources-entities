@@ -56,7 +56,7 @@ vpp-ipv6-fib-entities.sh
 
 ip route add 2001.0002.a678.4246::/64 via xxx yyy
 ip route add 2001.0002.a678.421c::/64 via xxx yyy
-ip route add 2001.0002.a678.42f2::/64 via xxx yyy```
+ip route add 2001.0002.a678.42f2::/64 via xxx yyy
 .
 .
 .
