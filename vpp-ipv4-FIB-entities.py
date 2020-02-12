@@ -30,7 +30,9 @@ if len(sys.argv) == 3:
             entities_ipv4.append('ip route add 198.16.' +str(i)+ '.' +str(j)+ '/32 via ' +args[1]+ ' ' +args[2])
 
     # write file
-    with open('vpp-ipv4-fib-entities', 'w') as f:
+    with open('vpp-ipv4-fib-entities.sh', 'w') as f:
+        f.write('#!/bin/sh \n')
+        f.write('\n')
         for index in entities_ipv4:
             f.write(index)
             f.write('\n')
