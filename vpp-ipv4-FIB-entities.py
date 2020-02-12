@@ -16,8 +16,8 @@ if len(sys.argv) == 3:
     entities_ipv4 = []
 
     # make list
-    list_i = list(range(1, 200))
-    list_j = list(range(1, 200))
+    list_i = list(range(1, 201))
+    list_j = list(range(1, 201))
 
     # shuffle
     random.shuffle(list_i)
