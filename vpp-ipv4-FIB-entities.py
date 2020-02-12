@@ -27,7 +27,7 @@ if len(sys.argv) == 3:
         for j in list_j:
             # print('i : ' +str(i))
             # print('j : ' +str(j))
-            entities_ipv4.append('ip route add 198.16.' +str(i)+ ',' +str(j)+ ' via ' +args[1]+ ' ' +args[2])
+            entities_ipv4.append('ip route add 198.16.' +str(i)+ ',' +str(j)+ '/32 via ' +args[1]+ ' ' +args[2])
 
     # write file
     with open('vpp-ipv4-fib-entities', 'w') as f:
